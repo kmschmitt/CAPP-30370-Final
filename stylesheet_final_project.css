@@ -1,0 +1,106 @@
+body {
+	  font-family:Comic Sans MS, cursive, sans-seriff;
+	  background-color:#387C44; 
+	  color:#FF0000;
+	  font-weight: bold;
+	  background-image: url(plaid_background_pattern.jpg);
+	  background-repeat: no-repeat;
+	  }
+
+h1 {
+	font-family: Snell, cursive, sans-seriff;
+	font-weight: bold;
+	color:#9F000F;
+	text-align:center;
+   }
+   
+	
+img {
+	max-width:100%;
+	border-style:solid;
+	border-color:#E42217;
+	border-radius:2em;
+	}
+
+.ChristmasCard {
+				float:left; 
+				max-height:400px;
+				max-width:400px;
+				}
+
+@-webkit-keyframes move {
+  0% {-webkit-transform: translate(0px, 0px)
+  rotateY(180deg);}
+  50% {-webkit-transform: translate(200px, 0px) rotateY(90);}
+100% {-webkit-transform: translate(400px, 0px) rotateY(0);}
+						 }
+
+.clark {
+		max-height:200px; 
+		max-width:200px; 
+		position:relative;
+		-webkit-animation: move 3s linear infinite alternate;	
+		}
+
+.tree:hover {
+			-webkit-transform: scale(3);
+			}	  
+	  
+@media screen and (min-width:1000px) { 
+									 .header {margin:0px; padding: 2px; text-align: center;}
+									 	
+									 .nav {float:left; width: 20%;}
+									      
+									 .main {float: right; width: 80%;}
+									 
+									 .traditions {padding:10px; margin-bottom:20px; border:2px solid red;}
+									 
+									 .outfits {overflow:hidden; clear:both;}
+									 .outfits	.photo {float:left; width:18%; margin:2%;}
+	
+									 p {overflow:hidden; clear:left;}
+									 
+									 .food {padding:10px; margin-bottomw:20px; border:2px solid red;}
+									 	
+									 .treats {overflow:hidden; clear: both;}
+									 .treats	.photo {float:left; width:20%; margin:2%;}	
+									 
+									 .decorations {padding:10px; margin-bottomw:20px; border:2px solid red;}
+									 	.christmastree {float:left; width:23%; margin:2%;}
+									 	.inside {float:left; width:23%; margin:2%;}
+									 	.outside {float:left; width:23%;}
+									 	
+									 .site-footer {clear:both; padding:1em; text-align:left; border-top:1px solid red;} 
+									 	
+			                         }
+
+@media screen and (min-width:700px) {
+									.header {margin:0px; padding:20px; text-align:center;}
+									
+									.nav {width:15%; margin-left:25%; margin-right:25%; padding:0; text-align:center;}
+										.nav li {display:inline;}
+										.nav a {display:inline-block; padding:10px;}
+									    
+									.main {float: right; width: 85%;}
+									
+									p {overflow: hidden; clear:both; }
+									
+									.traditions {padding:5px; margin-bottomw:15px; border:2px solid red;}
+									
+									.outfits {overflow:hidden; clear:both;} 
+									.otfits	.photo {float:left; width:35%; margin:4%;}
+								
+									
+									.food {padding:10px; margin-bottomw:20px; border:2px solid red;}
+									
+									.treats {overflow:hidden; clear: both;}
+									.treats .photo {float:left; width:35%; margin:4%;}	
+			
+									.decorations {padding:5px; margin-bottomw:15px; border:2px solid red;} 	
+									
+									.site-footer {clear:both; padding:1em; text-align:left; border-top:1px solid red;} 
+										
+									}
+.site-footer {clear:both; padding:1em; text-align:left; border-top:1px solid red;} 	  
+	 	  
+
