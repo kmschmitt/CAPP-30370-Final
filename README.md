@@ -41,8 +41,9 @@ Christmas-y, it made it difficult to read the text, no matter the font and font 
 the body tag on the CSS stylesheet so it will apply to the whole document and all the pages giving a uniform 
 appearance.
 
-jQuery: There is only 1 jquery interaction on the site but the java is coded in jquery. It is a picture swap of 
-the Santa on the decoration page. When the button is clicked, it takes the unlit Santa and lights him up. The 
+jQuery: 
+There is only 1 jquery interaction on the site but the java is coded in jquery. It is a picture swap of the 
+ Santa on the decoration page. When the button is clicked, it takes the unlit Santa and lights him up. The 
 action is located on the JavaScript file page and linked to the other pages at the body before the body close so
 as not to mess with the load time. 
 
