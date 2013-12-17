@@ -14,7 +14,7 @@ screensize changes. As the size of the window is adjusted, the format of the pag
 The paragraphs of information become wider and take up vertical less space, while the pictures go from being 
 in a single line to multiple per row. All of the words and pages also shift to the left more. 
 
-3-up or more column layout: 
+3-Up Or More Column Layout: 
 This was done on the desktop view for decorations becuase there were three paragraphs that could easily be made 
 into columns. It is designated in the CSS under the media screen for 1000. It has each being 22% of the parent 
 with a 2% margin so that they would fit on the screen. I like it this way because you can see all three at once. 
@@ -43,7 +43,7 @@ appearance.
 
 jQuery: 
 There is only 1 jquery interaction on the site but the java is coded in jquery. It is a picture swap of the 
- Santa on the decoration page. When the button is clicked, it takes the unlit Santa and lights him up. The 
+Santa on the decoration page. When the button is clicked, it takes the unlit Santa and lights him up. The 
 action is located on the JavaScript file page and linked to the other pages at the body before the body close so
 as not to mess with the load time. 
 
