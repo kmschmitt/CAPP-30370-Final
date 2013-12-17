@@ -43,7 +43,7 @@ img {
 		}
 
 .tree:hover {
-			-webkit-transform: scale(3);
+			-webkit-transform: scale(2);
 			}	  
 	  
 @media screen and (min-width:1000px) { 
@@ -77,7 +77,7 @@ img {
 @media screen and (min-width:700px) {
 									.header {margin:0px; padding:20px; text-align:center;}
 									
-									.nav {width:15%; margin-left:25%; margin-right:25%; padding:0; text-align:center;}
+									.nav {width:15%; margin-left:50%; margin-right:50%; padding:0; text-align:center;}
 										.nav li {display:inline;}
 										.nav a {display:inline-block; padding:10px;}
 									    
@@ -88,7 +88,7 @@ img {
 									.traditions {padding:5px; margin-bottomw:15px; border:2px solid red;}
 									
 									.outfits {overflow:hidden; clear:both;} 
-									.otfits	.photo {float:left; width:35%; margin:4%;}
+									.outfits .photo {float:left; width:35%; margin:4%;}
 								
 									
 									.food {padding:10px; margin-bottomw:20px; border:2px solid red;}

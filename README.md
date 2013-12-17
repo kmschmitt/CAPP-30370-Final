@@ -8,15 +8,20 @@ I hope to explain the traditions my family has regarding Christmas while demonst
 development tools listed above through the site design and execution. 
 
 Breakpoint Explanations:
-These are implemented by using the CSS stylesheet linked to each page. Since the site was initially designed to be a 
-mobile-first site, the 700px and 1000px measurements allow the format of the site to change as the screensize changes. As 
-the size of the window is adjusted, the format of the pages adjust as well. The paragraphs of information become wider and take up less space, while the pictures go from being in a single line to multiple per row. All of the words and pages also shift to the left more. 
+These are implemented by using the CSS stylesheet linked to each page. Since the site was initially designed to
+be a mobile-first site, the 700px and 1000px measurements allow the format of the site to change as the 
+screensize changes. As the size of the window is adjusted, the format of the pages adjust as well. 
+The paragraphs of information become wider and take up less space, while the pictures go from being in a single
+line to multiple per row. All of the words and pages also shift to the left more. 
 
 3-up or more column layout: 
-This was done on the desktop view for decorations becuase there were three paragraphs that could easily be made into columns. It is designated in the CSS under the media screen for 1000. It has each being 22% of the parent with a 2% margin so that they would fit on the screen. I like it this way because you can see all three at once. 
+This was done on the desktop view for decorations becuase there were three paragraphs that could easily be made 
+into columns. It is designated in the CSS under the media screen for 1000. It has each being 22% of the parent 
+with a 2% margin so that they would fit on the screen. I like it this way because you can see all three at once. 
 
 Continuous Loop:
-The continuous loop animation is on the homepage (index.html). It is a continuous loop of my brother's dog in a Santa suit. I find it amusing. Also Clark (the dog) is visibly annoyed by the fact that he is dressed in a Santa suit (my brother called it his pink bunny suit moment last Christmas-referenceing A Christmas Story). After adding the image and assigning it to a class, the animation was implemented using the CSS stylesheet. First, keyframes was used to explain the "move" portion (using transformations and then -webkit animation was done using the alrady-defined move as well as giving a time (3 seconds), direction (linear), time frame (infinite), as well as movement pattern (alternate).
+The continuous loop animation is on the homepage (index.html). It is a continuous loop of my brother's dog in a 
+Santa suit. I find it amusing. Also Clark (the dog) is visibly annoyed by the fact that he is dressed in a Santa suit (my brother called it his pink bunny suit moment last Christmas-referenceing A Christmas Story). After adding the image and assigning it to a class, the animation was implemented using the CSS stylesheet. First, keyframes was used to explain the "move" portion (using transformations and then -webkit animation was done using the alrady-defined move as well as giving a time (3 seconds), direction (linear), time frame (infinite), as well as movement pattern (alternate).
 
 Interactive Animation:
 This animation is achieved using a transformation of one of the images. The action is also located on the CSS page. The 
