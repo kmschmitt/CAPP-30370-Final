@@ -22,8 +22,9 @@
 
  $(window).resize(function(){
     $('width').text($(window).width());
+     console.log($(window).width());
 	});
 
- console.log($window.width());
+
 
   
