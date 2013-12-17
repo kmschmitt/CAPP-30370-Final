@@ -11,7 +11,7 @@
 	console.log('height:', $(this).height());
 	});
 
- $(document).on('click', 'h1,h2,h3,h4', function() {
+ $(document).on('click', 'h1,h2', function() {
   var $this = $(this);
 	console.log("Alt Text:", $(this).text());
 	console.log('color:', $(this).css('color'));
@@ -23,6 +23,7 @@
  $(window).resize(function(){
     $('width').text($(window).width());
 	});
- 
+
+ console.log($window.width());
 
   
